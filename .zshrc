@@ -49,10 +49,10 @@ export SAVEHIST=25000
 
 ## History command configuration
 setopt extended_history       # record timestamp of command in HISTFILE
-#setopt hist_find_no_dups			# show each command only 1x while searching with Ctrl+R
+#setopt hist_find_no_dups     # show each command only 1x while searching with Ctrl+R
 setopt hist_expire_dups_first # delete duplicates first when HISTFILE size exceeds HISTSIZE
 setopt hist_ignore_all_dups	  # not writing duplicates to the history file at all
-#setopt hist_ignore_dups       # ignore duplicated commands history list
+#setopt hist_ignore_dups      # ignore duplicated commands history list
 setopt hist_ignore_space      # ignore commands that start with space
 setopt hist_verify            # show command with history expansion to user before running it
-#setopt share_history          # share command history data
+#setopt share_history         # share command history data
